@@ -1,0 +1,16 @@
+{
+  "task_id": 2,
+  "title": "Расчет критической массы и ценности социальной сети",
+  "project_name": "ГородСоцСеть",
+  "market_potential_users": 1000000,
+  "initial_users": 5000,
+  "growth_before_critical": 0.03,
+  "growth_after_critical": 0.15,
+  "network_value_coefficient_rub_per_user_squared": 0.005,
+  "monthly_maintenance_cost_rub": 2000000,
+  "cac_rub": 500,
+  "arpu_rub_per_user_month": 15,
+  "horizon_months": 36,
+  "annual_discount_rate": 0.12,
+  "monthly_discount_rate": 0.01
+}
