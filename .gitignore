@@ -9,6 +9,7 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+.jupyter/
 
 # Операционная система
 .DS_Store
