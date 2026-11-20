@@ -4,13 +4,34 @@
   "project_name": "ГородСоцСеть",
   "market_potential_users": 1000000,
   "initial_users": 5000,
-  "growth_before_critical": 0.03,
+  "growth_before_critical": 0.15,
   "growth_after_critical": 0.15,
   "network_value_coefficient_rub_per_user_squared": 0.005,
   "monthly_maintenance_cost_rub": 2000000,
-  "cac_rub": 500,
-  "arpu_rub_per_user_month": 15,
+  "cac_rub": 50,
+  "arpu_rub_per_user_month": 30,
   "horizon_months": 36,
   "annual_discount_rate": 0.12,
-  "monthly_discount_rate": 0.01
+  "monthly_discount_rate": 0.01,
+  "operational_cac_rub": 30,
+  "scenarios": {
+    "Пессимистичный": {
+      "growth_before": 0.02,
+      "growth_after": 0.1
+    },
+    "Базовый": {
+      "growth_before": 0.03,
+      "growth_after": 0.15
+    },
+    "Оптимистичный": {
+      "growth_before": 0.05,
+      "growth_after": 0.2
+    }
+  },
+  "target_advance_months": 6,
+  "partnership_arpu_target_rub": 30,
+  "engagement_improvement": 0.3,
+  "conversion_improvement": 0.2,
+  "sensitivity_growth_search_max": 1.0,
+  "display_scale_rub": 1000000
 }

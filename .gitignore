@@ -11,14 +11,19 @@ env/
 *.ipynb_checkpoints
 .jupyter/
 
-# Операционная система
+# Operating system
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Временные файлы
+# Temporary files
 *.tmp
 *.log
+*.bak
 
-# Личные файлы редакторов
+# Editors and IDEs
 .vscode/
 .idea/
+
+# Local generated caches
+.cache/
